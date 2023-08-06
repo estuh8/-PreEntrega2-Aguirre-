@@ -1,0 +1,343 @@
+/* TIPOGRAFIAS */
+
+/* FUENTE LOCAL */
+@font-face {
+    font-family: 'estilo-encabezado';
+    src: url('../assets/fonts/Belgrano-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'intro-1';
+    src: url('../assets/fonts/Hurricane-Regular.ttf');
+}
+@font-face {
+    font-family: 'intro-2';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'intro-alfa';
+    src: url('/assets/fonts/Homenaje-Regular.ttf');
+}
+
+/*TIPOGRAFIAS*/
+/* INDEX */
+.estilo-encabezado{
+    order: 2;
+    font-family: 'estilo-encabezado', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-color: none;
+}
+.intro-1{
+    font-family: 'intro-1', sans-serif;
+    font-size: 35px;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    color: white;
+}
+.intro-2{
+    font-family: 'intro-2' sans-serif;
+    font-size: 20px;
+    margin: 2%;
+    color: white;
+}
+.intro-alfa{
+    display: flex;
+    align-items: center;
+    font-family: 'intro-alfa' sans-serif;
+    font-size: 20px;
+    margin: 2%;
+    color: white;
+}
+/* TIPOGRAFIAS */
+/* PRODUCTOS */
+.productos-txt{
+    font-family: 'intro-1', sans-serif;
+    font-size: 35px;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    color: white;
+}
+.productos-font{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    font-family: 'estilo-encabezado';
+    font-size: 30px;
+    color: white;
+}
+.productos-font2{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    font-family: 'intro-alfa';
+    font-size: 20px;
+    color: white;
+}
+/* INICIO */
+body{
+    background-color:tan;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 40px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+/* body{
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} */
+
+
+/* LOGO INDEX*/
+.icon-alfa{
+    display: flex;
+    align-items:flex-start;
+    width: 100px;
+    margin: 0;
+
+}
+
+/* IMAGENES DEL INDEX */
+.imagenes-index{
+    width: 350px;
+    height: 400px;
+    padding: 5px 5px;
+    background-color: #F8AAA8;
+    border: none;
+    border-radius: 50px;
+    margin: 0 5px;
+    margin-bottom: 50px;
+}
+.index-img{
+    display: flex;
+    justify-content: center;
+}
+
+/* IMAGENES PRODUCTOS */
+
+.index-img{
+    display: flex;
+    justify-content: center;
+}
+/* CARRUSEL */
+
+/* #conte-items-carrusel{
+    background-color: aliceblue;
+    height: 200px;
+    overflow: hidden;
+}
+
+.item-carrusel{
+    height: 200px;
+    position: relative;  
+}
+
+.tarjeta-carrusel{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+}
+
+.flechas-carrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjeta-carrusel-1{
+    background-color: #fd9a97;
+    width: 550px;
+    height: 550px;
+}
+
+#tarjeta-carrusel-2{
+    background-color: bisque;
+    width: 550px;
+    height: 550px;
+    
+}
+
+#tarjeta-carrusel-3{
+    background-color: azure;
+    width: 550px;
+    height: 550px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-producto{
+    width: 550px;
+    height: 550px; */
+
+
+/* mediaqueries */
+/* @media screen and (max-width: 900px) {
+    .carrusel img{
+        width: calc(100% / 3);
+    }
+@media screen and (max-width: 900px) {
+    .carrusel img{
+        width: 100%;
+        }
+}
+ */
+/* NAVBAR */
+.nav_bar{
+    list-style: none;
+}
+.nav_bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_bar li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_bar li a:hover{
+    color: #F8AAA8;
+}
+
+/* ICONOS REDES SOCIALES */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: #F8AAA8;
+}
+
+/* BOTON CONTACTO */
+li, a, button{
+    font-family: 'estilo-encabezado';
+    font-weight:800;
+    font-size: 14px;
+    color: #fd9a97;
+    text-decoration: none;
+}
+button{
+    margin-left: 15px;
+    padding: 2px 5px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: black;
+}
+
+/* textos con flexbox */
+/* INDEX */
+.intro-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.intro-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-alfa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-derechos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icon-alfa{
+    width: 100px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 300px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* DERECHOS RESERVADOS */
+#footer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: grey;
+    justify-content:center;
+    position: relative;
+
+}
+
+.logo-mp{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin right: 500px;
+}
+.footer-txt{
+    display: flex;
+    padding: 20px;
+    flex-direction: right;
+    color: #FFFFFF;
+}
+
+/* COLOR DEGRADADO FONDO */
+/* body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#fff, #F8AAA8);
+    opacity: 0.5; */
+    /* ORDEN DE ELEMENTOS */
+/*     z-index: -1; */
